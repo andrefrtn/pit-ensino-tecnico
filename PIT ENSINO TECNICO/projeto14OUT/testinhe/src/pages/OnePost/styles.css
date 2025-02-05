@@ -1,0 +1,19 @@
+.onePostContainer {
+    max-width: 700px;
+}
+
+.onePostContainer p {
+    margin-top: 1rem;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .post-image-modal {
+    max-width: 100%;
+    height: auto;
+  }
+  

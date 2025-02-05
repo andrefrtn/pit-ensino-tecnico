@@ -1,0 +1,236 @@
+body{
+  background-color: #678DBA;}
+  
+    
+    .azul {
+        position: absolute;
+        width: 359px;
+        height: 991px;
+        background-color: #678DBA;
+        border-radius: 14px;
+        margin-left: 16px;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        gap: 40px;
+    
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    
+      }
+      
+      #sloticon {
+        background-color: white;
+        width: 168px;
+        height: 162px;
+        border-radius: 100%;
+        margin-top: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      #engine{
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        margin-top: 140%;
+        margin-left: 66%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .rodinha{
+        width: 57px;
+        height: 59px;
+      }
+    
+    
+      #svgzinho {
+        width: 124px;
+        height: 122px;
+      }
+      
+      .dropdown {
+        position: relative;
+        width: 80%;
+      }
+      
+      .dropbtn {
+        width: 100%;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 12px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    
+      }
+      
+      .dropbtn:hover {
+        background-color: #909de9;
+        color: white;
+      }
+      
+      .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-left: 20px;
+        margin-top: 10px;
+    
+        
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100,
+          "YTLC" 500;
+      }
+      
+      .dropdown-content span {
+        color: #fefdff;
+        padding: 8px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .dropdown-content span:hover {
+        background-color: #e3f2fd;
+        color: #000000;
+      }
+    
+       .bv{
+        font-style: bold;
+            margin-left: 443px;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+
+        text-align: center;
+      position: relative;
+      display: inline-block;
+       }
+    
+       .bv::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: black; 
+        position: absolute;
+        bottom: -5px; 
+        left: 0;
+       }
+      
+    
+      .sec{
+        display: flex;
+        gap: 68px;
+        margin-left: 445px;
+        margin-top: 30px;
+      }
+    
+      .dives{
+        width: 289px;
+        height: 315px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.3);
+    
+      }
+    
+    #mini, #mini2, #mini3, #mini4{
+      width: 289px;
+      height: 32px; 
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
+      
+    }
+    
+    #mini{
+    background-color: #EEC7FC;
+    }
+    
+    #mini2{
+    background-color: #C7CDFC;
+    }
+    
+    #mini3{
+    background-color: #C7F9FC;
+    
+    }
+    
+    #mini4{
+      background-color: #FCC7C7;
+    }
+    
+    .posts{
+      width: 1360px;
+      position: absolute;
+      background-color: white;
+      border-radius: 10px;
+      margin-left: 445px;
+      margin-top: 5%;
+      box-shadow: 16px 16px 16px 15px rgba(1, 1, 1, 0.3);
+    
+    }
+    /* Modo escuro aqui tbm*/
+    body.dark-mode .posts{
+      background-color: #1d1a1a;
+      }
+      body.dark-mode .azul{
+        background-color: #0056b3;
+        color: white;
+      }
+      body.dark-mode #mini{
+        background-color: #ff07c9;
+      }
+      body.dark-mode #mini2{
+        background-color: #1630f8;
+      }
+      body.dark-mode #mini3{
+        background-color: #1becf7;
+      }
+      body.dark-mode #mini4{
+        background-color: #f32929;
+      }
+      
+ /* Termina aqui*/
+    .Flex{
+      background-color: #ffffff;
+      margin-top: -5%;
+  height: 50%;
+    }
+  
+    #buttonzinho{
+  color: white;
+      background-color:#827ac9;
+  
+      font-family: "Nunito", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    button{
+      color: white;
+ 
+    }
+
+    

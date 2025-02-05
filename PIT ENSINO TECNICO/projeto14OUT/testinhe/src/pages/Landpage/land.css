@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  background-color: #f1f1f1;
+}
+.header {
+  position: fixed; /* Fica à frente de todos os elementos */
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Fundo semi-transparente */
+  z-index: 1000; /* Coloca o cabeçalho na frente de outros elementos */
+  padding: 20px; /* Espaçamento interno do cabeçalho */
+  display: flex; /* Usar flexbox para layout */
+  justify-content: flex-end; /* Alinhar itens à direita */
+}
+
+nav ul {
+  display: flex; /* Itens em linha */
+  list-style: none; /* Remove as bolinhas dos itens da lista */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove padding padrão */
+}
+
+nav ul li {
+  margin-left: 20px; /* Espaçamento entre os botões */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: white; /* Cor do texto */
+  font-size: 18px; /* Tamanho da fonte */
+  padding: 10px 15px; /* Espaçamento interno do botão */
+  transition: background-color 0.3s ease; /* Transição suave no hover */
+  border-radius: 7px;
+ 
+}
+
+nav ul li a:hover {
+  color: #f1f1f1; /* Cor do texto ao passar o mouse */
+  border: solid white 2px; /* Bordas arredondadas */
+ 
+}
+
+.background-image {
+  background-image: url('https://static1.minhavida.com.br/articles/9f/a2/66/92/mae-segurando-filho-no-colo-orig-1.jpg'); /* URL da sua imagem */
+  background-size: cover; /* Cobre toda a área da div, mantendo a proporção */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  height: 100vh; /* Altura da div igual à altura da janela */
+  width: 100; /* Largura da div igual à largura da janela */
+  position: relative; /* Necessário para o posicionamento do texto */
+  display: flex; /* Usar flexbox para layout */
+  flex-direction: column; /* Coloca os itens em coluna */
+  justify-content:center; /* Centraliza verticalmente */
+  align-items: flex-start; /* Alinha à esquerda */
+  padding: 20px; /* Espaçamento interno */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.background-image::after {
+  content: ''; /* Necessário para mostrar o pseudo-elemento */
+  position: absolute; /* Posiciona em relação ao contêiner pai */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+  z-index: 1; /* Coloca a camada de cor atrás do conteúdo */
+}
+.overlay-text {
+  color: white; /* Cor do texto */
+  margin-left:50px ;
+  font-size: 36px; /* Tamanho do texto */
+  z-index: 2; /* Z-index para garantir que o texto esteja acima da imagem */
+}
+
+.overlay-subtext {
+  color: white; /* Cor do texto */
+  font-size: 24px; /* Tamanho do texto */
+  margin-left:50px ;
+  margin-top: 20px; /* Espaçamento entre h1 e h2 */
+  z-index: 2; /* Z-index para garantir que o texto esteja acima da imagem */
+}
+.linha{
+  background-color: rgba(60, 101, 238, 0.795);
+  width: 100%;
+  height: 20px;
+}
+  #la-mission
+  {
+    background-color: #f1f1f1;
+  }
+.missao{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ margin-top: 20px;
+}
+h2{
+  color: black;
+}
+
+.missao1{
+ margin-top: 30px;
+ font-size: 1.2rem;
+ display: flex;
+ justify-content: space-around;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.missao2{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.missao3{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.missao3 h4, .missao2 h4, .missao1 h4{
+  margin-top: 30px;
+}

@@ -1,0 +1,326 @@
+#novopost{
+  background-color: rgb(110, 144, 236);
+  width: 100px;
+  height: 60px;
+  border-radius: 80px;
+  margin-left: 90%;
+  box-shadow: 5px 5px 5px 5px rgb(139, 139, 139);
+}
+
+/* styles.css */
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Modo Escuro  */
+body.dark-mode{
+  background-color: #161515;
+}
+body.dark-mode .bv{
+  color: white;
+}
+body.dark-mode .book-card{
+  background-color: #383737;
+  border: 1px solid #000000;
+  color: white;
+}
+body.dark-mode .book-info h2{
+color: white;
+}
+body.dark-mode .book-info h3{
+  color: rgb(218, 218, 218);
+  }
+
+  body.dark-mode .post-card{
+    background-color: #242222;
+    color: white;
+    }
+    body.dark-mode .post-description{
+      color: white;
+      }
+      body.dark-mode #novopost{
+        background-color: #0056b3;
+        color: white;
+        box-shadow: 5px 5px 5px 5px rgb(75, 75, 75);
+      }
+      body.dark-mode .dives{
+        background-color: #000000 ;
+      }
+/* Final do modo escuro*/ 
+/* Estilo do contêiner de posts */
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: blue;
+}
+
+.post-card {
+  width: 100%;
+  max-width: 800px;
+  background: #E3E4F0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1PX rgb(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.post-description {
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.post-content {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.post-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Estilos do modal */
+.comment-box {
+  margin-top: 20px;
+}
+
+.comment-box h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.comment-box p {
+  margin: 0;
+}
+
+.comment-box textarea {
+  width: 100%;
+}
+
+.comment-box button {
+  margin-top: 10px;
+}
+
+/* Estilos para o popup de confirmação */
+.alert {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Adiciona uma transição suave e uma leve flutuação ao passar o mouse */
+.post-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+
+.post-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.5);
+
+}
+.dives {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dives:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+/* styles.css */
+
+.livros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.book-card {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 16px;
+  display: flex;
+  border-radius: 0px 0px 8px 8px;
+  align-items: center;
+  max-width: 300px;
+}
+
+.book-cover img {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+/* styles.css */
+
+/* Estilo para o contêiner de livros */
+.livros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 16px 0;
+  justify-content: center; /* Alinha os livros ao centro */
+}
+
+/* Estilo para o cartão de livro */
+.book-card {
+  cursor: pointer;
+  height: 90%;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* Fundo branco para os cartões de livro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.book-cover img {
+  width: 200px; /* Tamanho ajustado */
+  height: 200px; /* Tamanho ajustado */
+  object-fit: cover; /* Garante que a imagem não distorça */
+  border-radius: 6px; /* Borda arredondada para a imagem */
+}
+
+.book-info {
+  margin-left: 16px;
+}
+
+.book-info h2 {
+  margin: 0;
+  font-size: 1.2rem; /* Tamanho do título */
+  font-weight: bold; /* Negrito para o título */
+  color: #333; /* Cor escura para o título */
+}
+
+.book-info h3 {
+  margin: 4px 0;
+  font-size: 1rem; /* Tamanho do subtítulo */
+  color: #666; /* Cor mais clara para o subtítulo */
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.book-info p {
+  margin: 4px 0;
+  font-size: 0.9rem; /* Tamanho do texto */
+  color: #555; /* Cor para o texto */
+}
+
+/* Estilo do modal de detalhes do livro */
+.book-card-modal {
+  padding: 16px;
+  background-color: #f9f9f9; /* Fundo suave */
+}
+
+.book-card-modal img {
+  width: 10px; /* Tamanho ajustado */
+  height: 15px; /* Tamanho ajustado */
+  object-fit: cover; /* Garante que a imagem não distorça */
+  border-radius: 8px; /* Borda arredondada */
+}
+
+.book-card-modal h2 {
+  font-size: 1.5rem; /* Tamanho maior para o título */
+  font-weight: bold; /* Negrito para o título */
+  color: #333; /* Cor escura para o título */
+  margin-bottom: 8px; /* Margem inferior */
+}
+
+.book-card-modal h3 {
+  font-size: 1.2rem; /* Tamanho do subtítulo */
+  color: #666; /* Cor mais clara para o subtítulo */
+  margin-bottom: 8px; /* Margem inferior */
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.book-card-modal p {
+  font-size: 1rem; /* Tamanho do texto */
+  color: #555; /* Cor para o texto */
+  margin-bottom: 12px; /* Margem inferior */
+}
+
+/* Estilo do modal de comentários */
+.comment-box {
+  margin-top: 20px;
+  padding: 16px;
+  background-color: #ffffff; /* Fundo branco para o box de comentários */
+  border-radius: 8px; /* Borda arredondada */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.comment-box h3 {
+  font-size: 1.2rem; /* Tamanho do título */
+  font-weight: bold; /* Negrito para o título */
+  color: #333; /* Cor escura para o título */
+  margin-bottom: 10px; /* Margem inferior */
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comment-box p {
+  font-size: 0.9rem; /* Tamanho do texto */
+  color: #555; /* Cor para o texto */
+}
+
+.comment-box textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px; /* Borda arredondada */
+  border: 1px solid #ddd; /* Borda clara */
+  resize: vertical; /* Permite redimensionar verticalmente */
+  margin-bottom: 10px; /* Margem inferior */
+}
+
+.comment-box button {
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão */
+  padding: 10px 20px; /* Preenchimento */
+  border-radius: 4px; /* Borda arredondada */
+  cursor: pointer; /* Cursor de ponteiro */
+  font-size: 1rem; /* Tamanho do texto */
+}
+
+.comment-box button:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilo para o alerta de confirmação */
+.alert {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}

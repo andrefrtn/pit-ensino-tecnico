@@ -1,0 +1,39 @@
+{
+  "livros": [
+    {
+      "nome": "O Bebê de 0 a 3 Meses",
+      "autor": "T. Berry Brazelton",
+      "editora": "Editora Melhoramentos",
+      "sinopse": "Este livro fornece orientações práticas para pais de recém-nascidos, cobrindo aspectos como alimentação, sono e desenvolvimento emocional.",
+      "capa": "https://m.media-amazon.com/images/I/71NNi7YQpGL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "nome": "How To Talk So Kids Can Learn",
+      "autor": "Adele Faber e Elaine Mazlish",
+      "editora": "Editora Harmony Books",
+      "sinopse": "Este livro oferece técnicas de comunicação eficazes para ajudar as crianças a aprenderem e se desenvolverem melhor, com dicas práticas e estratégias para pais e educadores.",
+      "capa": "https://m.media-amazon.com/images/I/71TDa1tex-L._SY466_.jpg"
+    },
+    {
+      "nome": "A Maternidade e o Encontro com a Própria Sombra",
+      "autor": "Laura Gutman",
+      "editora": "Editora Cultrix",
+      "sinopse": "Explora os desafios emocionais e psicológicos da maternidade, oferecendo uma visão profunda sobre a transformação pessoal que ocorre ao se tornar mãe.",
+      "capa": "https://m.media-amazon.com/images/I/71hYTaiv1lL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "nome": "O que Esperar Quando Você Está Esperando",
+      "autor": "Heidi Murkoff e Sharon Mazel",
+      "editora": "Editora Ed. Best Seller",
+      "sinopse": "Um guia completo sobre a gravidez, desde a concepção até o parto, com informações detalhadas e dicas práticas para futuras mães.",
+      "capa": "https://m.media-amazon.com/images/I/91RkOSuhJDL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "nome": "Como Falar para Seu Bebê",
+      "autor": "Gina Ford",
+      "editora": "Editora Rocco",
+      "sinopse": "Oferece estratégias para estabelecer rotinas e lidar com a comunicação com o bebê, ajudando a criar um ambiente seguro e amoroso.",
+      "capa": "https://m.media-amazon.com/images/I/417VINQ0adL._AC_UF1000,1000_QL80_.jpg"
+    }
+  ]
+}
